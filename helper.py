@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 from io import BytesIO
-from scipy.signal import convolve
 
 # HELPER FUNCTION
 
