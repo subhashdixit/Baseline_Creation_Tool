@@ -1,7 +1,7 @@
 # Baseline_Creation_Tool
 Using this app, a baseline can be found of any list of data.
 
-* Click [here](https://baselinecreationtool.streamlit.app/){:target="_blank"}  
+Click [here](https://baselinecreationtool.streamlit.app/){:target="_blank"}  
 to visit Baseline Creation Tool.
 
 ### Steps to use the app:
