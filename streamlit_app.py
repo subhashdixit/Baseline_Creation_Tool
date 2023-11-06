@@ -30,7 +30,7 @@ if uploaded_file is not None:
         first_and_end_point = st.checkbox('Choose Start and End point as Same')
         st.write(first_and_end_point)
         
-        baseline = helper.calculate_baseline(df.iloc[:, 0].tolist(), window_size, smooth_factor, True,vertical_shift)
+        baseline = helper.calculate_baseline(df.iloc[:, 0].tolist(), window_size, smooth_factor, first_and_end_point,vertical_shift)
         
         uploaded_df = pd.DataFrame({'Actual':df.iloc[:, 0].tolist(), 'Baseline' : baseline})
         
